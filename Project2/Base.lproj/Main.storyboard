@@ -16,16 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HC6-M8-Tb6">
-                                <rect key="frame" x="95" y="100" width="224" height="114"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="US"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3qi-pE-lTJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pgp-2F-yir">
-                                <rect key="frame" x="95" y="244" width="224" height="114"/>
+                                <rect key="frame" x="95" y="247" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="US"/>
                                 <connections>
@@ -33,11 +25,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dc-wo-55C">
-                                <rect key="frame" x="95" y="388" width="224" height="114"/>
+                                <rect key="frame" x="95" y="391" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="US"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JII-ZC-fQK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HC6-M8-Tb6">
+                                <rect key="frame" x="95" y="103" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="US"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3qi-pE-lTJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -47,7 +47,7 @@
                             <constraint firstItem="0dc-wo-55C" firstAttribute="top" secondItem="Pgp-2F-yir" secondAttribute="bottom" constant="30" id="2MA-7s-2Ok"/>
                             <constraint firstItem="Pgp-2F-yir" firstAttribute="top" secondItem="HC6-M8-Tb6" secondAttribute="bottom" constant="30" id="Pds-Js-5yv"/>
                             <constraint firstItem="Pgp-2F-yir" firstAttribute="centerX" secondItem="HC6-M8-Tb6" secondAttribute="centerX" id="YWa-Eh-c6v"/>
-                            <constraint firstItem="HC6-M8-Tb6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="ffT-cA-VuY"/>
+                            <constraint firstItem="HC6-M8-Tb6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="ffT-cA-VuY"/>
                             <constraint firstItem="HC6-M8-Tb6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pme-I6-9oz"/>
                             <constraint firstItem="0dc-wo-55C" firstAttribute="centerX" secondItem="Pgp-2F-yir" secondAttribute="centerX" id="yMG-SC-BJp"/>
                         </constraints>

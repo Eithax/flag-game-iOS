@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         button2.layer.borderColor = UIColor.lightGray.cgColor
         button3.layer.borderColor = UIColor.lightGray.cgColor
         
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(showScore))
+        
         askQuestion(action: nil)
     }
 
@@ -70,6 +72,9 @@ class ViewController: UIViewController {
         present(ac, animated: true)
     }
     
+    @objc func showScore() {
+        
+    }
 
 }
 
